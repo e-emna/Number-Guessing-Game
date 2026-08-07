@@ -4,6 +4,9 @@ This is a simple Python-based number guessing game.
 The program randomly selects a number within a given range, and the player tries to guess it.
 It provides hints (higher/lower) until the correct number is guessed.
 
+🔗 Link to project
+https://roadmap.sh/projects/number-guessing-game
+
 ⚙️ Prerequisites
 Make sure you have the following installed:
 
