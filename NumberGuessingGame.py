@@ -1,6 +1,5 @@
 from random import randint
 
- 
 def game():
     #Opening to game
     print("Welcome to the Number Guessing Game!")
