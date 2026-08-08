@@ -46,6 +46,9 @@ def game():
             print("Congratulations! You guessed the correct number in ",attempt," attempts.")
             endGame = True
             break
+    if attempt>=chances:
+        print("You reached your attempts limit!")
+        print("The number is: ",number)
     
 play = True
 while play:
@@ -60,3 +63,4 @@ while play:
         case _:
             print('Invalid answer')
             answer = str(input("Continue to play? Yes / No "))
+
